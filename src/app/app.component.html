@@ -1,0 +1,12 @@
+<input placeholder="id" [(ngModel)]='eobj.id' />
+<br>
+<input placeholder="name" [(ngModel)]='eobj.name'  />
+<br/>
+<input placeholder="company" [(ngModel)]='eobj.compony' />
+<br/>
+<button  (click)='add()' >add</button>
+<button  (click)='modify()' >modify</button>
+<button  (click)='delete()' >delete</button>
+<button  (click)='search()' >search</button><br/>
+<span><pre>{{msg}}</pre></span>
+<router-outlet></router-outlet>
